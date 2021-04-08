@@ -76,7 +76,7 @@ print("Step-4 cleared")
 
 Finaldataset <- mergedDataset %>% group_by(Activity, Subject) %>% summarise(across(everything(), list(mean)))
 
-print(head(Finaldataset))
+write.table(Finaldataset, "result.txt", sep="\t", row.names = FALSE)
 
 
 
