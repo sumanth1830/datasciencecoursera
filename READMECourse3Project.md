@@ -38,8 +38,8 @@ Now, we name activities in mergedDataset based on the labels provided in activit
 
 We assign the feature names to column names of mergedDataset, by extracting names from features.txt
 
-##Step - 5
-##From the data set in step 4, 
-##creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## Step - 5
+## From the data set in step 4, 
+## creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 We first group the data based on Activity and Subject columns and then do mean for all columns based on groups.
