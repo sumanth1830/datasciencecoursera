@@ -78,18 +78,3 @@ Finaldataset <- mergedDataset %>% group_by(Activity, Subject) %>% summarise(acro
 
 write.table(Finaldataset, "result.txt", sep="\t", row.names = FALSE)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
